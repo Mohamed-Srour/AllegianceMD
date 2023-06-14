@@ -16,5 +16,5 @@ public class UserDto {
     private Integer id_user;
     private String user_name;
     private String email;   
-    private Set<Group> groups;
+    private Set<GroupDto> groups;
 }
